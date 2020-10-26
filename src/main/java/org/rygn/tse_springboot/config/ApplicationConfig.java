@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = "org.rygn.tse_spring")
+@ComponentScan(basePackages = "org.rygn.tse_springboot")
 public class ApplicationConfig {
 	
 	@Bean

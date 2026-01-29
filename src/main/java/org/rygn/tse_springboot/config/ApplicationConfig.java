@@ -12,6 +12,6 @@ public class ApplicationConfig {
 	@Bean
 	public Bird bird() {
 		
-		return new Owl();
+		return new Parrot();
 	}
 }

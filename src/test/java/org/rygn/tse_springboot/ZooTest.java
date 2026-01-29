@@ -8,7 +8,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
 @SpringBootTest
-@ActiveProfiles("test")
 public class ZooTest {
 
 	@Autowired
@@ -21,6 +20,6 @@ public class ZooTest {
 		
 		Assertions.assertTrue(zoo.toString().contains("Cat instance"));
 		
-		Assertions.assertTrue(zoo.toString().contains("Owl instance"));
+		Assertions.assertTrue(zoo.toString().contains("Parrot instance"));
 	}
 }
